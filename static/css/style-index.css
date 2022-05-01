@@ -125,13 +125,14 @@ button:hover{
     color:rgb(87, 102, 220); 
 }
 
-/* Drop menu*/
+/* Drop menu
 
 .dropbtn {
     background-color: #D14841;
     color: rgb(198, 168, 168);
     
     font-size: 16px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
     margin-bottom: 1%;
     border: none;
     cursor: pointer;
@@ -166,7 +167,7 @@ button:hover{
   .dropdown:hover .dropbtn {
     background-color: #D14841;
   }
-/* fim Drop menu*/
+ fim Drop menu */
 
 .logo {
     list-style: none;
@@ -394,6 +395,10 @@ button:hover{
 .botton-red{
     border-radius: 70px;
 }
+.botton-footer{
+    width: 630px;
+    font-size: 15px;
+}
 
 .botton-text2{
     float:left;
@@ -407,6 +412,10 @@ button:hover{
 @media screen and (max-width: 1280px) {
     .colorh1 {
         font-size: 1.0em;
+    }
+    .botton-footer{
+        width: 300px;
+        font-size: 15px;
     }
   }
 
@@ -505,6 +514,9 @@ button:hover{
   }
 /******************************* FIM Painel das imagens ***************************/
 /******************************* Nossos cursos ***************************/
+.aprenda-red{
+    color: #D14841;
+}
 .grid {
 	display: grid;
 }
@@ -577,6 +589,7 @@ button:hover{
     text-align: center;
 }
 .colorh3{
+    text-align: center;
     color: rgb(59, 140, 207);
     font-size: 1.2em;
 }
@@ -921,6 +934,29 @@ textarea {
     font-style: italic;
     font-display: auto; 
     font-family: 'Times New Roman', Times, serif;
+}
+
+@media screen and (max-width: 1300px) {
+    textarea {
+        width: 180%;
+        height: 150px;
+        padding: 12px 20px;
+        border-radius: 5%;
+    }
+    input[type=text] {
+        width: 180%;
+        padding: 12px 20px;
+        margin: 8px 0;
+    }
+    .botton-footer{
+        width: 180%;
+    }
+}
+@media screen and (max-width: 800px) {
+    
+}
+@media screen and (max-width: 450px) {
+    
 }
 
 /******************************* fim footer ***************************/
