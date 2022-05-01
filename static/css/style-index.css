@@ -31,6 +31,14 @@ body {
     font-family: Arial, Helvetica, sans-serif;
     display: grid;
 }
+
+@media screen and (max-width: 400px) {
+    body{
+        float:left
+    }
+  }
+
+
 li {
     list-style-type: none;
   } 
@@ -38,14 +46,13 @@ li {
 button{
     background-color: #065699;
     color: #fdfdfd;
-    border: 100px;
-    padding: 3%;
+    border: 90px;
+    padding: 2%;
     font-size: 1.3em;
     font-family: 'Times New Roman', sans-serif;
-    border-radius: 30px;
-    margin-top: 5%;
-    margin-left: 5%;
-    margin-right: 5%;
+    border-radius: 20px;
+    margin-top: 1%;   
+    margin-right: 1%;
     cursor: pointer;
 }
 button:hover{ 
@@ -134,7 +141,7 @@ button:hover{
     color: rgb(52, 137, 207);
     padding: 12px 16px;
     text-decoration: none;
-    display: block;
+    display: inline-block ;
   }
   
   .dropdown-content a:hover {opacity: 0.7;}
@@ -176,6 +183,7 @@ button:hover{
 }
 
 .mobile-menu div {
+    
     width: 32px;
     height: 2px;
     background: #fff;
@@ -183,7 +191,7 @@ button:hover{
 }
 
 #container {
-    display: inline-block;
+    display: flex;
     position: relative;
   }
   
@@ -248,7 +256,6 @@ button:hover{
 
 } 
 
-
 /******************************* CARDS ***************************/
 .cards {
     display: grid;
@@ -298,3 +305,511 @@ button:hover{
     margin-bottom: 10px;
 }
 /******************************* END CARDS ***************************/
+
+
+.box{
+    width: 80%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #ffffff;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+@media only screen and (min-width: 400px) and (max-width: 1024px) {
+    .box{   
+      box-sizing: border-box; 
+      width: 80%;
+      padding-left: 10%;
+      padding-right: 10%;
+      padding-top: 60px;
+      padding-bottom: 60px;
+    }
+  
+}
+.botton-red{
+    border-radius: 70px;
+}
+
+.botton-text2{
+    float:left;
+    color:#D14841;
+}
+
+.colorh1{
+    color: #D14841;
+    font-size: 3.5em; 
+}
+@media screen and (max-width: 1280px) {
+    .colorh1 {
+        font-size: 1.0em;
+    }
+  }
+
+.imagem{
+    display: inline-block;
+    position: relative;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.table{
+    width: 100%;
+}
+.p2{
+
+    font-size: 0.9em;
+    color: #3d3a3acf;
+    opacity: 0.8;
+}
+/******************************* Painel das imagens ***************************/
+.box2{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #d14141;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.row {
+    margin-left: 20%;
+    display: -ms-flexbox; 
+    display: flex;
+    -ms-flex-wrap: wrap; 
+    flex-wrap: wrap;
+    padding: 0 4px;
+  }
+  
+  
+  .column {
+    -ms-flex: 25%; 
+    flex: 25%;
+    max-width: 25%;
+    padding: 0 4px;
+  }
+  
+  .column img {
+    margin-top: 8px;
+    vertical-align: middle;
+    width: 100%;
+  }
+  
+ 
+  @media screen and (max-width: 800px) {
+    .column {
+      -ms-flex: 50%;
+      flex: 50%;
+      max-width: 50%;
+    }
+  }
+  
+  @media screen and (max-width: 600px) {
+    .column {
+      -ms-flex: 100%;
+      flex: 100%;
+      max-width: 100%;
+    }
+  }
+  .colorh3{
+    color: #fff;
+  }
+  .colorhh1{
+    color: #fff;
+    font-size: 70px;
+  }
+/******************************* FIM Painel das imagens ***************************/
+/******************************* Nossos cursos ***************************/
+.grid {
+	display: grid;
+}
+
+.grid-template-columns {
+	grid-template-columns: 500px 500px;
+}
+@media screen and (max-width: 1300px) {
+    .grid-template-columns {
+        grid-template-columns: 300px 300px;
+    }
+  }
+
+.grid-template-columns-3 {
+	grid-template-columns: 1fr 2fr 1fr;
+}
+
+.subgrid {
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	grid-gap: 10px;
+}
+
+.subgrid > div {
+	background: rgba(0,0,0,.3);
+}
+
+/* Estilos Gerais */
+.item {
+	margin: 0px;
+	
+	text-align: center;
+	font-size: 1.5em;
+}
+
+.grid {
+	max-width: 1920px;
+	margin: 0 auto;
+
+}
+
+@media screen and (max-width: 1300px) {
+    .grid {
+        max-width: 700px;
+        margin: 0 auto;
+    
+    }
+  }
+
+.colorh2{
+    color: #D14841;
+    font-size: 1.5em;
+}
+.colorh23{
+    text-align: left;
+    color: #D14841;
+    font-size: 1.5em;
+}
+
+.group-text{
+    text-align: center;
+}
+.colorh3{
+    color: rgb(59, 140, 207);
+    font-size: 1.2em;
+}
+.botton-red2{
+    font-size: large;
+    border-radius: 70px;
+}
+.p3{
+    text-align: left;
+    font-size: 0.6em;
+    color: #3d3a3acf;
+    opacity: 0.7;
+}
+@media screen and (max-width: 1300px) {
+    .p3{
+        font-size: 0.5em;
+    }
+  }
+
+/******************************* FIM Nossos cursos ***************************/
+/******************************* Depoimentos ***************************/
+.box3{
+    width: 100%;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #AEACAC;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+.row2 {
+    
+    display: -ms-flexbox; 
+    display: flex;
+    margin-right: 1%;
+    margin-left: 1%;
+  }
+.botton-red3 {
+    width: 18%;
+    border-radius: 100px;
+}
+
+iframe{
+    margin-right: 0.5%;
+}
+
+@media screen and (max-width: 1300px) {
+
+	iframe{
+        margin-right: 0.5%;
+        width: 50%;
+    }
+}
+hr {
+    border: 0;
+    height: 2px;
+    background-image: linear-gradient(to right, transparent, rgb(164, 40, 40), transparent);  
+}
+
+.newspaper {
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+}
+
+/******************************* FIM Depoimentos ***************************/
+/******************************* Proximas Aulas ***************************/
+.box4{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-left: 100px;
+    padding-right: 100px;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #fff;
+    text-align: center;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    display: flex;
+    flex-direction: row;
+    justify-content: start;
+    align-items: flex-start;
+}
+@media screen and (max-width: 1300px) {
+    .box4 {
+       
+        position: relative;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        width: 400px;
+        right: 50%;
+        top: 50%;
+        left: 50%;
+     
+    }
+  }
+
+
+.newspaper {
+    -webkit-column-count: 2; 
+    -moz-column-count: 2; 
+    column-count: 2;
+}
+
+.colorh4{
+    color: #4178d1;
+    text-align: left;
+    font-size: 1.6em;
+    font-style: italic;
+    font-display: auto; ;
+    font-family: 'Times New Roman', Times, serif;
+}
+@media screen and (max-width: 1300px) {
+
+    .colorh4{
+        font-size: 1.0em;
+    }
+  }
+
+
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+
+* {
+	box-sizing: border-box;
+}
+
+
+
+.course {
+	background-color: #fff;
+	border-radius: 10px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	display: flex;
+	max-width: 100%;
+	margin: 20px;
+	overflow: hidden;
+	width: 700px;
+}
+
+.course h6 {
+	opacity: 0.6;
+	margin: 0;
+	letter-spacing: 1px;
+	text-transform: uppercase;
+}
+
+.course h2 {
+	letter-spacing: 1px;
+	margin: 10px 0;
+}
+
+.course-preview {
+	background-color: #D14841;
+	color: #fff;
+	padding: 30px;
+	max-width: 250px;
+}
+
+.course-preview a {
+	color: #fff;
+	display: inline-block;
+	font-size: 12px;
+	opacity: 0.6;
+	margin-top: 30px;
+	text-decoration: none;
+}
+
+.course-info {
+	padding: 30px;
+	position: relative;
+	width: 100%;
+}
+
+.progress-container {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	text-align: right;
+	width: 150px;
+}
+
+.progress {
+	background-color: #ddd;
+	border-radius: 3px;
+	height: 5px;
+	width: 100%;
+}
+
+.progress::after {
+	border-radius: 3px;
+	background-color: #2A265F;
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	height: 5px;
+	width: 66%;
+}
+
+.progress-text {
+	font-size: 10px;
+	opacity: 0.6;
+	letter-spacing: 1px;
+}
+
+.btn {
+	background-color: #2A265F;
+	border: 0;
+	border-radius: 50px;
+	box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+	color: #fff;
+	font-size: 16px;
+	padding: 12px 25px;
+	position: absolute;
+	bottom: 30px;
+	right: 30px;
+	letter-spacing: 1px;
+}
+
+
+
+@media screen and (max-width: 1300px) {
+
+	.course {
+        background-color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+        display: flex;
+        max-width: 400px;
+        margin: 20px;
+        overflow: hidden;
+        width: 150%;
+    }
+}
+
+/******************************* FIM Proximas Aulas ***************************/
+/******************************* footer ***************************/
+.grid-template-columns-1 {
+	grid-template-columns: 250px 250px 250px 250px;
+    margin-left: 20em;
+}
+
+@media screen and (max-width: 1300px) {
+    .grid-template-columns-1 {
+        grid-template-columns: 200px 200px 200px 200px;
+        margin-left: 0em;
+    }
+}
+.footer{
+    background-color: #d14141;
+
+}
+
+h3{
+    color: #fff;
+    text-align: left;
+    font-size: 0.7em;
+    font-style: italic;
+    font-display: auto; 
+    font-family: 'Times New Roman', Times, serif;
+    margin-left: 10%;
+}
+a{
+    text-decoration: none;
+    
+}
+.h3-footer-log{
+    font-size: 1.2em;
+    margin-top: 50%;;    
+}
+.h3-footer-log1{
+    font-size: 1.2em;
+    margin-top: 50%;;    
+}
+.h3-footer{
+    font-size: 0.5em;    
+}
+
+input[type=text] {
+    width: 250%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+    border: none;
+    border-radius: 5%;
+    border-bottom: 2px solid #d14141;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2em;
+    font-style: italic;
+    font-display: auto; 
+    font-family: 'Times New Roman', Times, serif;
+}
+textarea {
+    width: 250%;
+    height: 150px;
+    padding: 12px 20px;
+    border-radius: 5%;
+    box-sizing: border-box;
+    border: 2px solid #d14141;
+    background-color: #fff;
+    color: #000;
+    font-size: 1.2em;
+    font-style: italic;
+    font-display: auto; 
+    font-family: 'Times New Roman', Times, serif;
+}
+
+/******************************* fim footer ***************************/
