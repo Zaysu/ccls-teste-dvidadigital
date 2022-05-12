@@ -3,12 +3,6 @@
 3° os Cards, mudai um pouco da ideia origial mantendo a essência espero que nao seja um problema e se for me desculpe pelo ocorrido
 4° Responsividade, usei mais meus tempo para deixar o projeto adaptavel as demais telas por não saber a resolção que o projeto seria analizado 
 
-Bom é foi isso, Obrigado pela oportunidade...
-Espero fazer parte do time um dia
-
-Atenciosamente, Junior 
-
-
 Redes Socias -
             Twitter - @zaysujr
             instagram - @junromao
